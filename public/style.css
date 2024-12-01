@@ -1,0 +1,77 @@
+body {
+    margin-left: 20px;
+}
+
+.chat {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indChats {
+    display: flexbox;
+    justify-content: space-evenly;
+}
+
+.bothBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0px 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    color: #ffffff;
+    background-color: #5e00f6;
+    height: 32px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.bothBtn button {
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0px 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    color: #ffffff;
+    background-color: #5e00f6;
+    height: 32px;
+    width: 72px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.chats {
+    display: flexbox;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+}
